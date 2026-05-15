@@ -1,0 +1,32 @@
+[
+    {
+        "id": "ACCT",
+        "short": "ACCT",
+        "long": "ACCT - Accounting",
+        "title": "ACCT - Accounting"
+    },
+    {
+        "id": "AEGD",
+        "short": "AEGD",
+        "long": "AEGD - Adv Ed Gen Dentistry",
+        "title": "AEGD - Adv Ed Gen Dentistry"
+    },
+    {
+        "id": "AERO",
+        "short": "AERO",
+        "long": "AERO - Aerospace Engineering",
+        "title": "AERO - Aerospace Engineering"
+    },
+    {
+        "id": "AERS",
+        "short": "AERS",
+        "long": "AERS - Aerospace Studies",
+        "title": "AERS - Aerospace Studies"
+    },
+    {
+        "id": "AFST",
+        "short": "AFST",
+        "long": "AFST - Africana Studies",
+        "title": "AFST - Africana Studies"
+    }
+]

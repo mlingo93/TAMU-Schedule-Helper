@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TAMU Scheduler Helper</title>
+  <style>
+    body { 
+      width: 640px; 
+      font-family: Arial, sans-serif; 
+      padding: 8px; 
+      margin: 0;
+    }
+    h2 { margin: 8px 0 6px 0; color: #500000; }
+    .section { margin-bottom: 8px; }
+    .subtitle { 
+      font-size: 15px; 
+      font-weight: bold; 
+      color: #500000; 
+      margin-bottom: 2px; 
+      padding: 6px 0;
+      cursor: pointer;
+      text-align: left;
+    }
+    .item { 
+      padding:8px; 
+      margin: 6px 0; 
+      border: 1px solid #ddd; 
+      border-radius: 8px; 
+      background: #f9f9f9;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .item:hover { background: #f0f0f0; }
+    .item.selected {
+      border-color: #500000;
+      background: #f0e6e6;
+      box-shadow: 0 0 0 2px rgba(80, 0, 0, 0.2);
+    }
+    .code { font-weight: bold; color: #006633; }
+    .loading { text-align: center; padding: 20px; color: #666; }
+    .filter-input {
+      width: 100%;
+      padding: 6px 10px;
+      margin-top: 4px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .top-clear {
+      margin-bottom: 12px;
+      text-align: right;
+      display: flex;
+      justify-content: space-between
+    }
+  </style>
+</head>
+<body>
+  
+
+  <div class="top-clear">
+    <span><h2>TAMU Scheduler Helper</h2></span>
+    <button id="clearAllTop" style="padding:6px 6px; background:#666; color:white; border:none; border-radius:4px; cursor:pointer;">
+      Clear All & Start Over
+    </button>
+  </div>
+
+  <!-- Step 1: Terms -->
+  <div class="section">
+    <div class="subtitle" id="term-header"><strong>1. Select Term</strong></div>
+    <div id="terms-content"><div class="loading">Loading terms...</div></div>
+  </div>
+
+  <!-- Step 2: Subjects -->
+  <div class="section" id="subjects-section" style="display: none;">
+    <div class="subtitle" id="subject-header"><strong>2. Select Subject</strong></div>
+    <input type="text" id="subject-search" class="filter-input" placeholder="Filter subjects (e.g. PHYS - Physics)">
+    <div id="subjects-content"><div class="loading">Loading subjects...</div></div>
+  </div>
+
+  <!-- Step 3: Courses -->
+  <div class="section" id="courses-section" style="display: none;">
+    <div class="subtitle" id="course-header"><strong>3. Select Course</strong></div>
+    <input type="text" id="course-search" class="filter-input" placeholder="Filter courses (e.g. Electricity and Magnetism)">
+    <div id="courses-content"><div class="loading">Loading courses...</div></div>
+  </div>
+
+  <!-- Step 4: Reg Blocks -->
+  <div class="section" id="regblocks-section" style="display: none;">
+    <div class="subtitle"><strong>4. Select Section</strong></div>
+    <div id="regblocks-content"><div class="loading">Loading sections...</div></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

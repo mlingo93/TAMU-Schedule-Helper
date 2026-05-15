@@ -1,0 +1,50 @@
+[
+    {
+        "id": "ASCC|001",
+        "subjectLong": "ASCC - Academic Success Center",
+        "subjectShort": "ASCC",
+        "subjectId": "ASCC",
+        "number": "001",
+        "topic": null,
+        "displayTitle": "001 Basic Math Skills",
+        "title": "Basic Math Skills",
+        "titleLong": "ASCC - Academic Success Center 001 - Basic Math Skills",
+        "description": null,
+        "hasTopics": false,
+        "corequisites": null,
+        "prerequisites": null,
+        "hasRestrictions": false
+    },
+    {
+        "id": "UGST|001",
+        "subjectLong": "UGST - Undergraduate Studies",
+        "subjectShort": "UGST",
+        "subjectId": "UGST",
+        "number": "001",
+        "topic": null,
+        "displayTitle": "001 LEARNING COMMUNITIES",
+        "title": "LEARNING COMMUNITIES",
+        "titleLong": "UGST - Undergraduate Studies 001 - LEARNING COMMUNITIES",
+        "description": null,
+        "hasTopics": true,
+        "corequisites": null,
+        "prerequisites": null,
+        "hasRestrictions": false
+    },
+    {
+        "id": "CLAT|001",
+        "subjectLong": "CLAT - College of Arts & Sci",
+        "subjectShort": "CLAT",
+        "subjectId": "CLAT",
+        "number": "001",
+        "topic": null,
+        "displayTitle": "001 LEARNING COMMUNITIES",
+        "title": "LEARNING COMMUNITIES",
+        "titleLong": "CLAT - College of Arts & Sci 001 - LEARNING COMMUNITIES",
+        "description": null,
+        "hasTopics": false,
+        "corequisites": null,
+        "prerequisites": null,
+        "hasRestrictions": false
+    }
+]
